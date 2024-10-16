@@ -37,7 +37,7 @@ public class BaseTest {
         loginPage = new LoginPage(driver);
         secureareaPage = new SecureareaPage(driver);
 
-        excelReader = new ExcelReader("C:\\Users\\EKI TRANSFERS\\Downloads\\Testfajl2.xlsx");
+        excelReader = new ExcelReader("Testfajl2.xlsx");
     }
 
     public void scrollToElement(WebElement element) {
